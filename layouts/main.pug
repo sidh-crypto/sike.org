@@ -1,0 +1,18 @@
+<!Doctype html>
+
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    link(rel="icon" href="assets/sike.png")
+    link(rel="stylesheet" href="assets/sanitize.css")
+    link(rel="stylesheet" href="assets/style.css")
+    title SIKE
+  body
+    nav
+      img#logo(src="assets/sike.svg")
+      ul#menu
+        each a in anchors
+          li
+            a(href=`#${a.id}`, class=`level-${a.level}`)= a.text
+    main!= contents
