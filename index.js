@@ -9,7 +9,7 @@ Metalsmith(__dirname)
     .metadata({
 	sitename: "SIKE – Supersingular Isogeny Key Encapsulation",
 	siteurl: "http://sike.org/",
-	description: "SIKE is an isogeny-based key encapsulation suite, submitted to the NIST standardization process",
+	description: "SIKE is an isogeny-based key encapsulation suite, submitted to the NIST Post-Quantum standardization process.",
 	generatorname: "Metalsmith",
 	generatorurl: "http://metalsmith.io/"
     })
