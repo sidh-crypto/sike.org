@@ -1,18 +1,35 @@
 $background: #d3c8ea;
 
+@import url('./fonts/dosis.css');
+
 html {
     min-height: 100%;
 }
 body {
-    font-family: sans;
-    display: flex;
-    flex-flow: row wrap;
-    max-width: 1000px;
+    font-family: 'Dosis', sans;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
     margin: auto;
+    padding: 0 2px;
+    min-width: 190px;
+    max-width: 1000px;
     background: linear-gradient($background 30%, white);
 }
+
+/***************************************************************/
 a {
     text-decoration: none;
+}
+
+/***************************************************************/
+
+@media (min-width: 600px) {
+    body {
+	display: grid;
+	grid-template-columns: 200px auto;
+	grid-column-gap: 40px;
+    }
 }
 
 nav {
@@ -20,7 +37,6 @@ nav {
 	margin-top: 0.67em;
 	width: 10em;
     }
-    margin-right: 4em;
     ul {
 	padding-left: 1ex;
 	list-style-type: none;
@@ -45,10 +61,20 @@ nav {
 main {
     h1 {
 	text-shadow: 3px 3px 2px lighten($background, 10%);
+	font-weight: 600;
+    }
+    h1, h2 {
 	padding-bottom: 0.2em;
 	border-bottom: solid thin darken($background, 16%);
     }
     h2, h3 {
 	text-shadow: 1px 1px 2px lighten($background, 10%);
+	font-weight: 500;
+    }
+    h4, h5, h6 {
+	font-weight: 400;
+    }
+    td:not(:first-child) {
+	padding-left: 1ex;
     }
 }
