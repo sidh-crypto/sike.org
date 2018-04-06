@@ -7,9 +7,9 @@ var sass        = require('metalsmith-sass');
 
 Metalsmith(__dirname)
     .metadata({
-	sitename: "SIKE",
+	sitename: "SIKE – Supersingular Isogeny Key Encapsulation",
 	siteurl: "http://sike.org/",
-	description: "SIKE",
+	description: "SIKE is an isogeny-based key encapsulation suite, submitted to the NIST standardization process",
 	generatorname: "Metalsmith",
 	generatorurl: "http://metalsmith.io/"
     })
