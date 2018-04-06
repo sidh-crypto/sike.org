@@ -1,4 +1,4 @@
-build: node_modules
+build: node_modules/.installed
 	node index.js
 
 install: node_modules/.installed
