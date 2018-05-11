@@ -14,7 +14,7 @@ post-quantum cryptography. It contains two algorithms:
 - A CCA-secure key encapsulation mechanism **SIKE.KEM**,
 
 each instantiated with three parameter sets: **SIKEp503**,
-**SIKEp571** and **SIKEp964**.
+**SIKEp751** and **SIKEp964**.
 
 | News |
 |-|
