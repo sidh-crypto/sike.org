@@ -18,6 +18,7 @@ each instantiated with three parameter sets: **SIKEp503**,
 
 | News |
 |-|
+| **2018-06-27:** | List of [errata](errata.html) for the SIKE specification is now available.
 | **2017-11-30:** | SIKE proposal submitted to [NIST PQC process](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography).
 
 ## Specification
