@@ -20,6 +20,7 @@ layout: main.pug
     8ED5950D 80325A8D 0F147EF3 BD0CFEC5<br>
     236C7FAC 9E69F7FD 5A99EBEC 3B5B8B00<br>
     0F8EEA73 70893430 12E0D620 BFB341D5<br></tt>
+* p. 50: The output of Algorithm 8 is P+[m]Q, not Q+[m]P.
 * p. 52: Line 3 in Algorithm 14 should read "t₀ ← K₁ · t₀"
 * p. 58: Algorithm 23 should initalize the value of t₂ to be equal to 1
 * p. 59: In line 3 of Algorithm 24, <tt>xDBLAffine</tt> should be <tt>xDBL</tt>
