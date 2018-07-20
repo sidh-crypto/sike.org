@@ -65,6 +65,10 @@ Isogenies](https://eprint.iacr.org/2011/506), Sep. 2011.
 - Luca De Feo. [Mathematics of Isogeny Based
   Cryptography](https://arxiv.org/abs/1711.04062), Nov. 2017.
 
+- Steven Galbraith and Frederik Vercauteren, [Computational problems in
+  supersingular elliptic curve isogenies](https://eprint.iacr.org/2017/774),
+Aug. 2017.
+
 - Wouter Castryck. [Elliptic curves are quantum dead, long live elliptic
   curves](https://www.esat.kuleuven.be/cosic/elliptic-curves-are-quantum-dead-long-live-elliptic-curves/),
 May 2017.
