@@ -118,7 +118,7 @@ license](files/License.txt).
 
 The following implementations are available from third parties:
 
-- [Cloudflare p751sidh package](https://github.com/cloudflare/p751sidh)
+- [Cloudflare's SIDH/SIKE package](https://github.com/cloudflare/sidh)
 
 - [Microsoft SIDH library](https://github.com/Microsoft/PQCrypto-SIDH)
 
