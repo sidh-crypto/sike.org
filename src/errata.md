@@ -23,7 +23,7 @@ layout: main.pug
 * p. 50: The output of Algorithm 8 is P+[m]Q, not Q+[m]P.
 * p. 52: Line 3 in Algorithm 14 should read "t₀ ← K₁ · t₀"
 * p. 57: In line 4 in Algorithm 14, the first input to <tt>3_e_iso</tt>
-  should be (A₂₄⁺,A₂₄⁻).
+  should be (A₂₄⁺, A₂₄⁻).
 * p. 58: Algorithm 23 should initalize the value of t₂ to be equal to 1
 * p. 59: In line 3 of Algorithm 24, <tt>xDBLAffine</tt> should be <tt>xDBL</tt>
 * p. 63: In Algorithms 34 and 35, (a',b') should be initialized to (a,b)
