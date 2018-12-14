@@ -27,6 +27,5 @@ layout: main.pug
 * p. 58: Algorithm 23 should initalize the value of t₂ to be equal to 1.
 * p. 59: In line 3 of Algorithm 24, <tt>xDBLAffine</tt> should be <tt>xDBL</tt>.
 * p. 63: In Algorithms 34 and 35, (a',b') should be initialized to (a,b)
-  inside the <tt>for</tt> loop, and calls to <tt>xDBLe</tt> should use
-  (a',b') instead of (a,b).
+  outside the <tt>for</tt> loop.
 * p. 72: In the definition of P₃, the Weil pairing should be of order 3ᵉ₃.
