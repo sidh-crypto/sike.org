@@ -10,4 +10,4 @@ layout: main.pug
   ((6 : 1), (8 : 4)), and line 2 in Algorithm 22 should read ((A : C),
   (A₂₄⁺ : A₂₄⁻)) ← ((6 : 1), (8 : 4)).
 
-Acknowledgments: Carlos Andrés Lara Nino.
+Acknowledgments: Carlos Andrés Lara Niño.
