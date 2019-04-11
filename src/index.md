@@ -10,15 +10,16 @@ standardization
 process](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography) on
 post-quantum cryptography. It contains two algorithms: 
 
-- A CPA-secure public key encryption algorithm **SIKE.PKE**, and
+- A CCA-secure public key encryption algorithm **SIKE.PKE**, and
 - A CCA-secure key encapsulation mechanism **SIKE.KEM**,
 
-each instantiated with three parameter sets: **SIKEp503**,
-**SIKEp751** and **SIKEp964**.
+each instantiated with four parameter sets: **SIKEp434**,
+**SIKEp503**, **SIKEp610** and **SIKEp751**.
 
 | News |
 |-|
-| **2018-06-27:** | List of [errata](errata.html) for the SIKE specification is now available.
+| **2019-04-10:** | List of updated [errata](errata.html) for the SIKE specification.
+| **2019-04-10:** | Updated specification for the 2nd round.
 | **2017-11-30:** | SIKE proposal submitted to [NIST PQC process](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography).
 
 ## Specification
@@ -26,31 +27,59 @@ each instantiated with three parameter sets: **SIKEp503**,
 ### NIST submission
 
 The submission package can be downloaded from the [NIST web
-site](https://csrc.nist.gov/projects/post-quantum-cryptography/round-1-submissions)
+site](https://csrc.nist.gov/projects/post-quantum-cryptography/round-2-submissions)
 or from [this server](files/SIKE.zip).
 
-Note that these two packages are not identical; the NIST package
-contains [corrupted PDF
-files](https://groups.google.com/a/list.nist.gov/forum/#!topic/pqc-forum/FB_H0WkXU_M)
-which were corrupted post-submission.  We recommend that you download
-the package from this server to get the originally submitted,
-uncorrupted version.
-
-If you just want the uncorrupted PDF file, it is available
-[here](files/SIDH-spec.pdf).
+The specification document alone can also be [downloaded
+separately](files/SIDH-spec.pdf).
 
 ### Resources
 
 #### Research articles
 
-- Gora Adj, Daniel Cervantes-Vázquez, Jesús-Javier Chi-Domínguez, Alfred
-  Menezes and Francisco Rodríguez-Henríquez. [On the cost of computing
-isogenies between supersingular elliptic
-curves](https://eprint.iacr.org/2018/313), Apr. 2018.
+- Craig Costello, Patrick Longa, Michael Naehrig, Joost Renes and
+  Fernando Virdia. [Improved classical cryptanalysis of the
+  computational supersingular isogeny
+  problem](https://eprint.iacr.org/2019/298), Mar. 2019.
+
+- Samuel Jaques and John M. Schanck. [Quantum cryptanalysis in the RAM
+  model: Claw-finding attacks on
+  SIKE](https://eprint.iacr.org/2019/103), Feb. 2019.
+
+- Joppe W. Bos and Simon J. Friedberger.  [Faster modular arithmetic
+  for isogeny based crypto on embedded
+  devices](https://eprint.iacr.org/2018/792), Aug. 2018.
+
+- Anamaria Costache, Brooke Feigon, Kristin Lauter, Maike Massierer,
+  and Anna Puskás. [Ramanujan graphs in
+  cryptography](https://arxiv.org/abs/1806.05709), Jun. 2018.
+
+- Joppe W. Bos and Simon J. Friedberger. [Arithmetic considerations for
+  isogeny based cryptography](https://eprint.iacr.org/2018/376),
+  Apr. 2018.
+
+- Gora Adj, Daniel Cervantes-Vázquez, Jesús-Javier Chi-Domínguez,
+  Alfred Menezes and Francisco Rodríguez-Henríquez. [On the cost of
+  computing isogenies between supersingular elliptic
+  curves](https://eprint.iacr.org/2018/313), Apr. 2018.
+
+- Brian Koziel, Reza Azarderakhsh, and Mehran Mozaffari Kermani. [A
+  high-performance and scalable hardware architecture for
+  isogeny-based
+  cryptography](https://doi.org/10.1109/TC.2018.2815605), Mar. 2018.
+
+- Gustavo H. M. Zanon, Marcos A. Simplicio Jr., Geovandro
+  C. C. F. Pereira, Javad Doliskani, and Paulo
+  S. L. M. Barreto. [Faster key compression for isogeny-based
+  cryptosystems](https://eprint.iacr.org/2017/1143), Nov. 2017.
+
+- Craig Costello, David Jao, Patrick Longa, Michael Naehrig, Joost
+  Renes and David Urbanik. [Efficient compression of SIDH public
+  keys](https://eprint.iacr.org/2016/963), Oct. 2016.
 
 - Steven D. Galbraith, Christophe Petit, Barak Shani, and Yan Bo Ti.
   [On the security of supersingular isogeny
-cryptosystems](https://eprint.iacr.org/2016/859), Sep. 2016.
+  cryptosystems](https://eprint.iacr.org/2016/859), Sep. 2016.
 
 - Craig Costello, Patrick Longa and Michael Naehrig. [Efficient
   algorithms for supersingular isogeny
@@ -58,7 +87,7 @@ cryptosystems](https://eprint.iacr.org/2016/859), Sep. 2016.
 
 - Luca De Feo, David Jao and Jérôme Plût. [Towards Quantum-Resistant
   Cryptosystems From Supersingular Elliptic Curve
-Isogenies](https://eprint.iacr.org/2011/506), Sep. 2011.
+  Isogenies](https://eprint.iacr.org/2011/506), Sep. 2011.
 
 #### Expository articles
 
@@ -72,7 +101,6 @@ Aug. 2017.
 - Wouter Castryck. [Elliptic curves are quantum dead, long live elliptic
   curves](https://www.esat.kuleuven.be/cosic/elliptic-curves-are-quantum-dead-long-live-elliptic-curves/),
 May 2017.
-
 
 - David Urbanik. [A friendly introduction to Supersingular Isogeny
   Diffie-Hellman](https://csclub.uwaterloo.ca/~dburbani/work/friendlysidh.pdf),
@@ -131,19 +159,20 @@ server](files/KAT/).
 ## Authors
 
 - David Jao, University of Waterloo and evolutionQ, Inc. (principal submitter)
-- Reza Azarderakhsh, Florida Atlantic University
+- Reza Azarderakhsh, Florida Atlantic University and PQSecure Technologies, LLC
 - Matthew Campagna, Amazon
 - Craig Costello, Microsoft Research
 - Luca De Feo, Université de Versailles – Saint-Quentin
-- Basil Hess, Infosec Global
+- Basil Hess, Infosec Global, Switzerland
 - Amir Jalali, Florida Atlantic University
 - Brian Koziel, Texas Instruments
 - Brian LaMacchia, Microsoft Research
 - Patrick Longa, Microsoft Research
 - Michael Naehrig, Microsoft Research
+- Geovandro Pereira, University of Waterloo and evolutionQ, Inc.
 - Joost Renes, Radboud University
-- Vladimir Soukharev, Infosec Global
-- David Urbanik, University of Waterloo
+- Vladimir Soukharev, Infosec Global, Canada
+- David Urbanik, University of Toronto
 
 ### Contact
 
