@@ -18,19 +18,23 @@ each instantiated with four parameter sets: **SIKEp434**,
 
 | News |
 |-|
-| **2019-04-10:** | List of updated [errata](errata.html) for the SIKE specification.
-| **2019-04-10:** | Updated specification for the 2nd round.
-| **2017-11-30:** | SIKE proposal submitted to [NIST PQC process](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography).
+| **2019-04-17:** |
+New version of specification available from this web site ([list of changes](changes.html)).
+| **2019-04-10:** |
+Updated specification for the 2nd round.
+| **2017-11-30:** |
+SIKE proposal submitted to [NIST PQC process](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography).
 
 ## Specification
 
 ### NIST submission
 
-The submission package can be downloaded from the [NIST web
-site](https://csrc.nist.gov/projects/post-quantum-cryptography/round-2-submissions)
-or from [this server](files/SIKE.zip).
+The original submission package can be downloaded from the [NIST web
+site](https://csrc.nist.gov/projects/post-quantum-cryptography/round-2-submissions).
+An updated version of the submission package (with corrections) is available
+from [this server](files/sike.tar.gz).
 
-The specification document alone can also be [downloaded
+The (updated) specification document alone can also be [downloaded
 separately](files/SIDH-spec.pdf).
 
 ### Resources
@@ -132,7 +136,7 @@ Jul. 2016.
 ## Implementation
 
 The SIKE submission contains six implementations. These are available
-from the [submission package](files/SIKE.zip), or individually below:
+from the [submission package](files/sike.tar.gz), or individually below:
 
 - [Reference implementation](files/reference.zip)
 - [Optimized implementation](files/optimized.zip)
@@ -153,7 +157,7 @@ The following implementations are available from third parties:
 ### Known Answer Test
 
 Known Answer Test (KAT) files are available from the [submission
-package](files/SIKE.zip), or individually from [this
+package](files/sike.tar.gz), or individually from [this
 server](files/KAT/).
 
 ## Authors
