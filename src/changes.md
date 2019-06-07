@@ -35,3 +35,8 @@ layout: main.pug
   (A₂₄⁺ : A₂₄⁻)) ← ((6 : 1), (8 : 4)).
 
 Acknowledgments: Carlos Andrés Lara Niño.
+
+| Other errata and corrections |
+|-|
+
+- p. 57: In Algorithm 11, step 3 should read A₂₄⁺ ← C₂₄ - A₂₄⁺.
