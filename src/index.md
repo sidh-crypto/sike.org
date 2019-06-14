@@ -168,7 +168,7 @@ server](files/KAT/).
 - Craig Costello, Microsoft Research
 - Luca De Feo, Université de Versailles – Saint-Quentin
 - Basil Hess, Infosec Global, Switzerland
-- Amir Jalali, Florida Atlantic University
+- Amir Jalali, LinkedIn Corporation
 - Brian Koziel, Texas Instruments
 - Brian LaMacchia, Microsoft Research
 - Patrick Longa, Microsoft Research
