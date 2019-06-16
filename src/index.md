@@ -41,6 +41,9 @@ separately](files/SIDH-spec.pdf).
 
 #### Research articles
 
+- Chloe Martindale and Lorenz Panny.
+  [How to not break SIDH](https://eprint.iacr.org/2019/558), May 2019.
+
 - Craig Costello, Patrick Longa, Michael Naehrig, Joost Renes and
   Fernando Virdia. [Improved classical cryptanalysis of the
   computational supersingular isogeny
