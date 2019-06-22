@@ -52,7 +52,7 @@ Isogeny Key Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019.
 - Chloe Martindale and Lorenz Panny.
   [How to not break SIDH](https://eprint.iacr.org/2019/558), May 2019.
 
-- Hwajeong Soe, Amir Jalali, and Reza Azarderakhsh. [SIKE Round 2 speed
+- Hwajeong Seo, Amir Jalali, and Reza Azarderakhsh. [SIKE Round 2 speed
   record on ARM Cortex-M4](https://eprint.iacr.org/2019/535), May 2019.
 
 - Craig Costello, Patrick Longa, Michael Naehrig, Joost Renes and
