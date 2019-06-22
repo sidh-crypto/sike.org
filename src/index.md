@@ -41,8 +41,19 @@ separately](files/SIDH-spec.pdf).
 
 #### Research articles
 
+- Hwajeong Seo, Amir Jalali, and Reza Azarderakhsh.
+  [Optimized SIKE Round 2 on 64-bit ARM](https://eprint.iacr.org/2019/721), Jun. 2019.
+
+- Brian Koziel, A-Bon Ackie, Rami El Khatib, Reza Azarderakhsh,
+  and Mehran Mozaffari-Kermani.
+  [ SIKE'd Up: Fast and Secure Hardware Architectures for Supersingular
+Isogeny Key Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019.
+
 - Chloe Martindale and Lorenz Panny.
   [How to not break SIDH](https://eprint.iacr.org/2019/558), May 2019.
+
+- Hwajeong Soe, Amir Jalali, and Reza Azarderakhsh. [SIKE Round 2 speed
+  record on ARM Cortex-M4](https://eprint.iacr.org/2019/535), May 2019.
 
 - Craig Costello, Patrick Longa, Michael Naehrig, Joost Renes and
   Fernando Virdia. [Improved classical cryptanalysis of the
@@ -66,7 +77,7 @@ separately](files/SIDH-spec.pdf).
   Apr. 2018.
 
 - Gora Adj, Daniel Cervantes-Vázquez, Jesús-Javier Chi-Domínguez,
-  Alfred Menezes and Francisco Rodríguez-Henríquez. [On the cost of
+  Alfred Menezes, and Francisco Rodríguez-Henríquez. [On the cost of
   computing isogenies between supersingular elliptic
   curves](https://eprint.iacr.org/2018/313), Apr. 2018.
 
@@ -81,18 +92,18 @@ separately](files/SIDH-spec.pdf).
   cryptosystems](https://eprint.iacr.org/2017/1143), Nov. 2017.
 
 - Craig Costello, David Jao, Patrick Longa, Michael Naehrig, Joost
-  Renes and David Urbanik. [Efficient compression of SIDH public
+  Renes, and David Urbanik. [Efficient compression of SIDH public
   keys](https://eprint.iacr.org/2016/963), Oct. 2016.
 
 - Steven D. Galbraith, Christophe Petit, Barak Shani, and Yan Bo Ti.
   [On the security of supersingular isogeny
   cryptosystems](https://eprint.iacr.org/2016/859), Sep. 2016.
 
-- Craig Costello, Patrick Longa and Michael Naehrig. [Efficient
+- Craig Costello, Patrick Longa, and Michael Naehrig. [Efficient
   algorithms for supersingular isogeny
   Diffie-Hellman](https://eprint.iacr.org/2016/413), Apr. 2016.
 
-- Luca De Feo, David Jao and Jérôme Plût. [Towards Quantum-Resistant
+- Luca De Feo, David Jao, and Jérôme Plût. [Towards Quantum-Resistant
   Cryptosystems From Supersingular Elliptic Curve
   Isogenies](https://eprint.iacr.org/2011/506), Sep. 2011.
 
