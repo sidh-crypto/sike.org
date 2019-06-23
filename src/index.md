@@ -130,8 +130,7 @@ Mar. 2017.
   NIST PQC Standardization Conference, Apr. 2018.
 
 - Craig Costello. [Key encapsulation using supersingular
-  isogenies](https://ecc2017.cs.ru.nl/slides/ecc2017-costello.pdf), Nov.
-2017.
+  isogenies](https://ecc2017.cs.ru.nl/slides/ecc2017-costello.pdf), Nov. 2017.
 
 - Luca De Feo. [20 Years of Isogeny-Based
   Cryptography](http://defeo.lu/docet/assets/slides/2017-11-14-ecc.pdf),
