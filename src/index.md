@@ -5,7 +5,7 @@ layout: main.pug
 # SIKE – <small>Supersingular Isogeny Key Encapsulation</small>
 
 SIKE is an isogeny-based key encapsulation suite based on pseudo-random
-walks in supersingular isogeny graphs, thay was submitted to the [NIST
+walks in supersingular isogeny graphs, that was submitted to the [NIST
 standardization
 process](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography) on
 post-quantum cryptography. It contains two algorithms: 
