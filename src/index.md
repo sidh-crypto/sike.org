@@ -49,6 +49,10 @@ separately](files/SIDH-spec.pdf).
   [ SIKE'd Up: Fast and Secure Hardware Architectures for Supersingular
 Isogeny Key Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019.
 
+- Michael Naehrig and Joost Renes.
+  [Dual Isogenies and Their Application to Public-key Compression for
+  Isogeny-based Cryptography](https://eprint.iacr.org/2019/499), May 2019.
+
 - Chloe Martindale and Lorenz Panny.
   [How to not break SIDH](https://eprint.iacr.org/2019/558), May 2019.
 
@@ -67,6 +71,10 @@ Isogeny Key Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019.
 - Joppe W. Bos and Simon J. Friedberger.  [Faster modular arithmetic
   for isogeny based crypto on embedded
   devices](https://eprint.iacr.org/2018/792), Aug. 2018.
+
+- Hwajeong Seo, Zhe Liu, Patrick Longa and Zhi Hu.  [SIDH on ARM: Faster
+  Modular Multiplications for Faster Post-Quantum Supersingular Isogeny Key
+  Exchange](https://eprint.iacr.org/2018/700), Jul. 2018.
 
 - Anamaria Costache, Brooke Feigon, Kristin Lauter, Maike Massierer,
   and Anna Puskás. [Ramanujan graphs in
@@ -129,6 +137,10 @@ Mar. 2017.
 - David Jao. [Supersingular Isogeny Key Encapsulation](files/SIKE.pdf),
   NIST PQC Standardization Conference, Apr. 2018.
 
+- Patrick Longa. [Supersingular isogeny based cryptography gets practical](https://www.youtube.com/watch?v=31NyfrHSAcoBcM)
+([slides](https://irp-cdn.multiscreensite.com/7fa75f95/files/uploaded/Supersingular%20isogeny%20based%20cryptography%20gets%20practical%20-%20RWC2018.pdf)),
+Real World Cryptography Conference 2018, Jan. 2018.
+
 - Craig Costello. [Key encapsulation using supersingular
   isogenies](https://ecc2017.cs.ru.nl/slides/ecc2017-costello.pdf), Nov. 2017.
 
@@ -140,6 +152,9 @@ Nov. 2017.
   Diffie-Hellman](https://www.youtube.com/watch?v=ctP24WKusX0)
 ([slides](https://dconnolly.github.io/talks/cloudflare-crypto-meetup-feb-2017/Crypto%20Meetup%20Feb%202017.pdf)),
 Cloudflare Crypto Meetup, Feb. 2017.
+
+- Michael Naehrig. [Supersingular Isogeny Diffie-Hellman](https://cryptosith.org/michael/data/talks/2017-01-04-SIDH-RWC17.pdf),
+  Real-World Cryptography Conference 2017, Jan. 2017.
 
 - David Urbanik. [Introduction to the post-quantum Supersingular Isogeny
   Diffie-Hellman protocol](https://www.youtube.com/watch?v=PW5Vsu57o9I)
@@ -161,11 +176,13 @@ from the [submission package](files/sike.tar.gz), or individually below:
 All of the above implementations are licensed under the [MIT
 license](files/License.txt).
 
-The following implementations are available from third parties:
-
-- [Cloudflare's SIDH/SIKE package](https://github.com/cloudflare/sidh)
+The following implementation is available from Microsoft Research:
 
 - [Microsoft SIDH library](https://github.com/Microsoft/PQCrypto-SIDH)
+
+The following implementation is available from a third party:
+
+- [Cloudflare's SIDH/SIKE package](https://github.com/cloudflare/sidh)
 
 ### Known Answer Test
 
