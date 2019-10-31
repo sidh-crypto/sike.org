@@ -118,6 +118,7 @@ Isogeny Key Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019.
 #### Expository articles
 
 - A number of posts on the [CloudFlare blog](https://blog.cloudflare.com/) discuss SIKE to some extent:
+  - [The TLS Post-Quantum Experiment](https://blog.cloudflare.com/the-tls-post-quantum-experiment/), Oct. 2019
   - [Towards Post-Quantum Cryptography in TLS](https://blog.cloudflare.com/towards-post-quantum-cryptography-in-tls/), Jun. 2019
   - [Introducing CIRCL: An Advanced Cryptographic Library](https://blog.cloudflare.com/introducing-circl/), Jun. 2019
   - [SIDH in Go for quantum-resistant TLS 1.3](https://blog.cloudflare.com/sidh-go/), Sep. 2017
