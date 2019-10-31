@@ -187,7 +187,7 @@ The following implementation is available from Microsoft Research:
 
 The following implementation is available from a third party:
 
-- [Cloudflare's SIDH/SIKE package](https://github.com/cloudflare/sidh)
+- [Cloudflare CIRCL library](https://github.com/cloudflare/circl/tree/master/dh/sidh)
 
 ### Known Answer Test
 
