@@ -117,12 +117,6 @@ Isogeny Key Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019.
 
 #### Expository articles
 
-- A number of posts on the [CloudFlare blog](https://blog.cloudflare.com/) discuss SIKE to some extent:
-  - [The TLS Post-Quantum Experiment](https://blog.cloudflare.com/the-tls-post-quantum-experiment/), Oct. 2019
-  - [Towards Post-Quantum Cryptography in TLS](https://blog.cloudflare.com/towards-post-quantum-cryptography-in-tls/), Jun. 2019
-  - [Introducing CIRCL: An Advanced Cryptographic Library](https://blog.cloudflare.com/introducing-circl/), Jun. 2019
-  - [SIDH in Go for quantum-resistant TLS 1.3](https://blog.cloudflare.com/sidh-go/), Sep. 2017
-
 - Luca De Feo. [Mathematics of Isogeny Based
   Cryptography](https://arxiv.org/abs/1711.04062), Nov. 2017.
 
@@ -137,6 +131,18 @@ May 2017.
 - David Urbanik. [A friendly introduction to Supersingular Isogeny
   Diffie-Hellman](https://csclub.uwaterloo.ca/~dburbani/work/friendlysidh.pdf),
 Mar. 2017.
+
+#### Industry studies
+
+- Amazon Web Services Security Blog, [Post-quantum TLS now supported in AWS KMS](https://aws.amazon.com/blogs/security/post-quantum-tls-now-supported-in-aws-kms/), Nov. 2019
+
+- A number of posts on the [CloudFlare blog](https://blog.cloudflare.com/) discuss SIKE to some extent:
+  - [The TLS Post-Quantum Experiment](https://blog.cloudflare.com/the-tls-post-quantum-experiment/), Oct. 2019
+  - [Towards Post-Quantum Cryptography in TLS](https://blog.cloudflare.com/towards-post-quantum-cryptography-in-tls/), Jun. 2019
+  - [Introducing CIRCL: An Advanced Cryptographic Library](https://blog.cloudflare.com/introducing-circl/), Jun. 2019
+  - [SIDH in Go for quantum-resistant TLS 1.3](https://blog.cloudflare.com/sidh-go/), Sep. 2017
+
+- Adam Langley, [Real-world measurements of structured-lattices and supersingular isogenies in TLS](https://www.imperialviolet.org/2019/10/30/pqsivssl.html), Oct. 2019
 
 #### Talks
 
