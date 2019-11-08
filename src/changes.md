@@ -42,6 +42,6 @@ Acknowledgments: Carlos Andrés Lara Niño.
 - p. 12: In Section 1.3.3 it should read "P₃ ∈ E₀(Fₚ) and Q₃ ∈ E₀ (Fₚ²) ∖ E₀(Fₚ)" as opposed to "P₃ ∈ E₀ (Fₚ²) ∖ E₀(Fₚ) and Q₃ ∈ E₀(Fₚ)".
 - p. 57: In Algorithm 11, step 3 should read A₂₄⁺ ← C₂₄ - A₂₄⁺.
 - p. 58: In Algorithm 15, step 18-20 should be removed and replaced by the single step A₂₄⁺ ← t₃ ⋅ t₄.
-- p. 58: In Algorithm 16, step 11 should read <b>return</b> (X<sub>Q'</sub> : Z<sub>Q'</sub>)
+- p. 58: In Algorithm 16, step 11 should read <b>return</b> (X<sub>Q'</sub> : Z<sub>Q'</sub>).
 
 Acknowledgments: Pedro Maat Costa Massolino.
