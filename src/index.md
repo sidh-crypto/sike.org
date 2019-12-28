@@ -19,7 +19,7 @@ each instantiated with four parameter sets: **SIKEp434**,
 | News |
 |-|
 | **2019-04-17:** |
-New version of specification available from this web site ([list of changes](changes.html)).
+New version of specification available from this web site ([list of changes and errata](changes.html)).
 | **2019-04-10:** |
 Updated specification for the 2nd round.
 | **2017-11-30:** |
