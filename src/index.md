@@ -146,6 +146,8 @@ Mar. 2017.
 
 #### Talks
 
+- [@naehrwert](https://twitter.com/naehrwert), [(Post-Quantum) Isogeny Cryptography](https://media.ccc.de/v/36c3-10543-post-quantum_isogeny_cryptography), 36c3, Dec. 2019.
+
 - David Jao. [Supersingular Isogeny Key Encapsulation](files/SIKE.pdf),
   NIST PQC Standardization Conference, Apr. 2018.
 
