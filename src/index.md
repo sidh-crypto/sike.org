@@ -117,6 +117,9 @@ Isogeny Key Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019.
 
 #### Expository articles
 
+- Craig Costello, [Supersingular isogeny key exchange for
+  beginners](https://eprint.iacr.org/2019/1321), Nov. 2019.
+
 - Luca De Feo. [Mathematics of Isogeny Based
   Cryptography](https://arxiv.org/abs/1711.04062), Nov. 2017.
 
