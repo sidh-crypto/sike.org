@@ -213,7 +213,7 @@ server](files/KAT/).
 - Reza Azarderakhsh, Florida Atlantic University and PQSecure Technologies, LLC
 - Matthew Campagna, Amazon
 - Craig Costello, Microsoft Research
-- Luca De Feo, Université de Versailles – Saint-Quentin
+- Luca De Feo, IBM Research Zürich
 - Basil Hess, Infosec Global, Switzerland
 - Amir Jalali, LinkedIn Corporation
 - Brian Koziel, Texas Instruments
