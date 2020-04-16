@@ -36,4 +36,4 @@ The [specification document](files/SIDH-spec.pdf) has been updated to reflect th
 
 The following additional recent developments may also be of interest to the community. The updated specification file does not reflect these developments.
 
-- New [quantum cryptanalysis](https://eprint.iacr.org/2020/424) of SIKE by Jaques and Schrottenloher, improving upon [previous results](https://eprint.iacr.org/2019/103) of Jaques and Schanck. Note that even under the new cryptanalysis, the SIKE parameter sets still satisfy their respective claimed NIST security levels.
+- New quantum cryptanalysis of SIKE by [\[Jaques and Schrottenloher, 2020\]](https://eprint.iacr.org/2020/424), improving upon previous results of [\[Jaques and Schanck, 2019\]](https://eprint.iacr.org/2019/103). Note that even under the new cryptanalysis, the SIKE parameter sets still satisfy their respective claimed NIST security levels.
