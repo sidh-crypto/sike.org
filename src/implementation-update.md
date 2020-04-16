@@ -8,7 +8,7 @@ layout: main.pug
 
 The [specification document](files/SIDH-spec.pdf) has been updated to reflect the following recent developments from members of the SIKE team.
 
-### Updates from the SIKE team (included in updated specification)
+### SIKE team updates
 
 | Algorithmic improvements (applicable to all platforms) |
 |-|
@@ -32,6 +32,8 @@ The [specification document](files/SIDH-spec.pdf) has been updated to reflect th
 
 - New compact and efficient hw/sw co-design implementation by Pedro M.C. Massolino, Patrick Longa, Joost Renes and Lejla Batina ([preprint](https://eprint.iacr.org/2020/040), [source code](https://github.com/pmassolino/hw-sike), to appear in CHES 2020), targeting embedded applications. The smallest architecture based on a 128-bit MAC unit takes only 3415 slices, 21 BRAMs and 57 DSPs on a Virtex 7 690T and can perform key generation, encapsulation and decapsulation in 14.4, 24.4 and 26.0 milliseconds for `SIKEp434`, respectively.
 
-### Other recent developments (not included in updated specification)
+### Other developments
+
+The following additional recent developments may also be of interest to the community. The updated specification file does not reflect these developments.
 
 - New [quantum cryptanalysis](https://eprint.iacr.org/2020/424) of SIKE by Jaques and Schrottenloher, improving upon [previous results](https://eprint.iacr.org/2019/103) of Jaques and Schanck. Note that even under the new cryptanalysis, the SIKE parameter sets still satisfy their respective claimed NIST security levels.
