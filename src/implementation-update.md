@@ -17,7 +17,7 @@ The [specification document](files/SIDH-spec.pdf) has been updated to reflect th
 
 - New compressed SIKE implementation, which now includes the improvements described in [\[Naehrig and Renes, 2019\]](https://eprint.iacr.org/2019/499) and [\[Pereira et al., 2020\]](https://eprint.iacr.org/2020/431), available in the [Microsoft SIDH library](https://github.com/microsoft/PQCrypto-SIDH), resulting in the following changes:
   - Decapsulation is now ~1.6 times faster than the NIST round 2 compressed SIKE implementation, and only 5-9% slower than uncompressed SIKE. KeyGen is ~1.6 times faster, and Encapsulation is ~1.3 times faster.
-  - Static library size is 1.5 to 4 times smaller than the NIST round 2 compressed SIKE implementation due to smaller discrete logarithm tables. For example, the `SIKEp504_compressed` library size has decreased from 5.6MB to 1.4MB.
+  - Static library size is 1.5 to 4 times smaller than the NIST round 2 compressed SIKE implementation due to smaller discrete logarithm tables. For example, the `SIKEp503_compressed` library size has decreased from 5.6MB to 1.4MB.
   - Decapsulation no longer requires any discrete logarithm tables. As a result, decapsulation-only routines now have nearly the same static library size as SIKE without key compression.
   - Ciphertext sizes are 12.5% larger than the NIST round 2 compressed SIKE implementation. Public keys are 1 byte larger. Secret keys are ~50% larger.
 
