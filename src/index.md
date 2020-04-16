@@ -137,9 +137,11 @@ Mar. 2017.
 
 #### Industry studies
 
-- Amazon Web Services Security Blog, [Post-quantum TLS now supported in AWS KMS](https://aws.amazon.com/blogs/security/post-quantum-tls-now-supported-in-aws-kms/), Nov. 2019
+- Amazon Web Services Security Blog:
+  - [Round 2 Hybrid Post-Quantum TLS Benchmarks](https://aws.amazon.com/blogs/security/round-2-hybrid-post-quantum-tls-benchmarks/), Apr. 2020
+  - [Post-quantum TLS now supported in AWS KMS](https://aws.amazon.com/blogs/security/post-quantum-tls-now-supported-in-aws-kms/), Nov. 2019
 
-- A number of posts on the [CloudFlare blog](https://blog.cloudflare.com/) discuss SIKE to some extent:
+- [CloudFlare blog](https://blog.cloudflare.com/):
   - [The TLS Post-Quantum Experiment](https://blog.cloudflare.com/the-tls-post-quantum-experiment/), Oct. 2019
   - [Towards Post-Quantum Cryptography in TLS](https://blog.cloudflare.com/towards-post-quantum-cryptography-in-tls/), Jun. 2019
   - [Introducing CIRCL: An Advanced Cryptographic Library](https://blog.cloudflare.com/introducing-circl/), Jun. 2019
