@@ -24,7 +24,7 @@ The [specification document](files/SIDH-spec.pdf) has been updated to reflect th
 | Platform-specific improvements |
 |-|
 
-- New ARMv8 optimized implementations, available in the [Microsoft SIDH library](https://github.com/Microsoft/PQCrypto-SIDH), representing a further improvement over previous work published in [\[Seo et al.\]](https://doi.org/10.1109/TCSI.2020.2979410) in TCAS (to appear). Encaps+Decaps for `SIKEp434`, `SIKEp503`, `SIKEp610` and `SIKEp751` now run in 29.4 ms, 40.9 ms, 94.9 ms and 141.6 ms, respectively, on a 1.992GHz 64-bit ARM Cortex-A72 processor.
+- New ARMv8 optimized implementations, available in the [Microsoft SIDH library](https://github.com/Microsoft/PQCrypto-SIDH), representing a further improvement over previous work published by [\[Seo et al.\]](https://doi.org/10.1109/TCSI.2020.2979410) in TCAS (to appear). Encaps+Decaps for `SIKEp434`, `SIKEp503`, `SIKEp610` and `SIKEp751` now run in 29.4 ms, 40.9 ms, 94.9 ms and 141.6 ms, respectively, on a 1.992GHz 64-bit ARM Cortex-A72 processor.
 
 - New speed-optimized pure hardware (FPGA, Artix-7) implementations by Brian Koziel, A-Bon Ackie, Rami El Khatib, Reza Azarderakhsh, and Mehran Mozaffari-Kermani ([preprint](https://eprint.iacr.org/2019/711), [source code](https://github.com/kozielbrian/VHDL-SIKE_R2)). The new results are faster and smaller than the previous work. For example, `SIKEp434` takes 14.4ms for Encap+Decap and occupies 8K slices, 240 DSPs and 26.5 BRAMs. 
 
