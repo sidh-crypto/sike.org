@@ -18,6 +18,8 @@ each instantiated with four parameter sets: **SIKEp434**,
 
 | News |
 |-|
+| **2020-04-16:** |
+[List of implementation updates](implementation-update.html) submitted to NIST.
 | **2019-04-17:** |
 New version of specification available from this web site ([list of changes and errata](changes.html)).
 | **2019-04-10:** |
