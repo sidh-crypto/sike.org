@@ -43,32 +43,42 @@ separately](files/SIDH-spec.pdf).
 
 #### Research articles
 
+Hardware implementation
+
+- Rami Elkhatib, Reza Azarderakhsh and Mehran
+  Mozaffari-Kermani. [Efficient and fast hardware architectures for
+  SIKE round 2 on FPGA](https://eprint.iacr.org/2020/611), May 2020.
+
+- Pedro Maat C. Massolino, Patrick Longa, Joost Renes and Lejla
+  Batina. [A compact and scalable hardware/software co-design of
+  SIKE](https://eprint.iacr.org/2020/040), Jan. 2020.
+
+- Brian Koziel, A-Bon Ackie, Rami El Khatib, Reza Azarderakhsh, and
+  Mehran Mozaffari-Kermani. [SIKE'd Up: Fast and Secure Hardware
+  Architectures for Supersingular Isogeny Key
+  Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019.
+
+- Brian Koziel, Reza Azarderakhsh, and Mehran Mozaffari Kermani. [A
+  high-performance and scalable hardware architecture for
+  isogeny-based
+  cryptography](https://doi.org/10.1109/TC.2018.2815605), Mar. 2018.
+
+Software implementation
+
+- Hwajeong Seo, Mila Anastasova, Amir Jalali and Reza
+  Azarderakhsh. [Supersingular Isogeny Key Encapsulation (SIKE) Round
+  2 on ARM Cortex-M4](https://eprint.iacr.org/2020/410), Apr. 2020.
+ 
+- Hwajeong Seo, Pakize Sanal, Amir Jalali, and Reza
+  Azarderakhsh. [Optimized implementation of SIKE round 2 on 64-bit
+  ARM Cortex-A processors](https://doi.org/10.1109/TCSI.2020.2979410),
+  Mar. 2020.
+
 - Hwajeong Seo, Amir Jalali, and Reza Azarderakhsh.
   [Optimized SIKE Round 2 on 64-bit ARM](https://eprint.iacr.org/2019/721), Jun. 2019.
 
-- Brian Koziel, A-Bon Ackie, Rami El Khatib, Reza Azarderakhsh,
-  and Mehran Mozaffari-Kermani.
-  [ SIKE'd Up: Fast and Secure Hardware Architectures for Supersingular
-Isogeny Key Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019.
-
-- Michael Naehrig and Joost Renes.
-  [Dual Isogenies and Their Application to Public-key Compression for
-  Isogeny-based Cryptography](https://eprint.iacr.org/2019/499), May 2019.
-
-- Chloe Martindale and Lorenz Panny.
-  [How to not break SIDH](https://eprint.iacr.org/2019/558), May 2019.
-
 - Hwajeong Seo, Amir Jalali, and Reza Azarderakhsh. [SIKE Round 2 speed
   record on ARM Cortex-M4](https://eprint.iacr.org/2019/535), May 2019.
-
-- Craig Costello, Patrick Longa, Michael Naehrig, Joost Renes and
-  Fernando Virdia. [Improved classical cryptanalysis of the
-  computational supersingular isogeny
-  problem](https://eprint.iacr.org/2019/298), Mar. 2019.
-
-- Samuel Jaques and John M. Schanck. [Quantum cryptanalysis in the RAM
-  model: Claw-finding attacks on
-  SIKE](https://eprint.iacr.org/2019/103), Feb. 2019.
 
 - Joppe W. Bos and Simon J. Friedberger.  [Faster modular arithmetic
   for isogeny based crypto on embedded
@@ -78,23 +88,19 @@ Isogeny Key Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019.
   Modular Multiplications for Faster Post-Quantum Supersingular Isogeny Key
   Exchange](https://eprint.iacr.org/2018/700), Jul. 2018.
 
-- Anamaria Costache, Brooke Feigon, Kristin Lauter, Maike Massierer,
-  and Anna Puskás. [Ramanujan graphs in
-  cryptography](https://arxiv.org/abs/1806.05709), Jun. 2018.
-
 - Joppe W. Bos and Simon J. Friedberger. [Arithmetic considerations for
   isogeny based cryptography](https://eprint.iacr.org/2018/376),
   Apr. 2018.
 
-- Gora Adj, Daniel Cervantes-Vázquez, Jesús-Javier Chi-Domínguez,
-  Alfred Menezes, and Francisco Rodríguez-Henríquez. [On the cost of
-  computing isogenies between supersingular elliptic
-  curves](https://eprint.iacr.org/2018/313), Apr. 2018.
+- Craig Costello, Patrick Longa, and Michael Naehrig. [Efficient
+  algorithms for supersingular isogeny
+  Diffie-Hellman](https://eprint.iacr.org/2016/413), Apr. 2016.
 
-- Brian Koziel, Reza Azarderakhsh, and Mehran Mozaffari Kermani. [A
-  high-performance and scalable hardware architecture for
-  isogeny-based
-  cryptography](https://doi.org/10.1109/TC.2018.2815605), Mar. 2018.
+Enhancements
+
+- Michael Naehrig and Joost Renes.
+  [Dual Isogenies and Their Application to Public-key Compression for
+  Isogeny-based Cryptography](https://eprint.iacr.org/2019/499), May 2019.
 
 - Gustavo H. M. Zanon, Marcos A. Simplicio Jr., Geovandro
   C. C. F. Pereira, Javad Doliskani, and Paulo
@@ -105,13 +111,35 @@ Isogeny Key Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019.
   Renes, and David Urbanik. [Efficient compression of SIDH public
   keys](https://eprint.iacr.org/2016/963), Oct. 2016.
 
+Security analysis
+
+- Samuel Jaques and André Schrottenloher. [Low-gate quantum golden
+  collision finding](https://eprint.iacr.org/2020/424), Apr. 2020.
+
+- Chloe Martindale and Lorenz Panny.
+  [How to not break SIDH](https://eprint.iacr.org/2019/558), May 2019.
+
+- Craig Costello, Patrick Longa, Michael Naehrig, Joost Renes and
+  Fernando Virdia. [Improved classical cryptanalysis of the
+  computational supersingular isogeny
+  problem](https://eprint.iacr.org/2019/298), Mar. 2019.
+
+- Samuel Jaques and John M. Schanck. [Quantum cryptanalysis in the RAM
+  model: Claw-finding attacks on
+  SIKE](https://eprint.iacr.org/2019/103), Feb. 2019.
+
+- Anamaria Costache, Brooke Feigon, Kristin Lauter, Maike Massierer,
+  and Anna Puskás. [Ramanujan graphs in
+  cryptography](https://arxiv.org/abs/1806.05709), Jun. 2018.
+
+- Gora Adj, Daniel Cervantes-Vázquez, Jesús-Javier Chi-Domínguez,
+  Alfred Menezes, and Francisco Rodríguez-Henríquez. [On the cost of
+  computing isogenies between supersingular elliptic
+  curves](https://eprint.iacr.org/2018/313), Apr. 2018.
+
 - Steven D. Galbraith, Christophe Petit, Barak Shani, and Yan Bo Ti.
   [On the security of supersingular isogeny
   cryptosystems](https://eprint.iacr.org/2016/859), Sep. 2016.
-
-- Craig Costello, Patrick Longa, and Michael Naehrig. [Efficient
-  algorithms for supersingular isogeny
-  Diffie-Hellman](https://eprint.iacr.org/2016/413), Apr. 2016.
 
 - Luca De Feo, David Jao, and Jérôme Plût. [Towards Quantum-Resistant
   Cryptosystems From Supersingular Elliptic Curve
@@ -138,6 +166,10 @@ May 2017.
 Mar. 2017.
 
 #### Industry studies
+
+- Christian Paquin, [Stay quantum safe: future-proofing encrypted
+  secrets](https://christianpaquin.github.io/presentations/northsec2020_paquin.pdf),
+  May 2020.
 
 - Amazon Web Services Security Blog:
   - [Round 2 Hybrid Post-Quantum TLS Benchmarks](https://aws.amazon.com/blogs/security/round-2-hybrid-post-quantum-tls-benchmarks/), Apr. 2020
