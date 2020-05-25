@@ -47,21 +47,24 @@ Hardware implementation
 
 - Rami Elkhatib, Reza Azarderakhsh and Mehran
   Mozaffari-Kermani. [Efficient and fast hardware architectures for
-  SIKE round 2 on FPGA](https://eprint.iacr.org/2020/611), May 2020.
+  SIKE round 2 on FPGA](https://eprint.iacr.org/2020/611), May
+  2020. To appear in ARITH 2020.
 
 - Pedro Maat C. Massolino, Patrick Longa, Joost Renes and Lejla
   Batina. [A compact and scalable hardware/software co-design of
-  SIKE](https://eprint.iacr.org/2020/040), Jan. 2020.
+  SIKE](https://eprint.iacr.org/2020/040), Jan. 2020. Published in
+  TCHES 2020.
 
 - Brian Koziel, A-Bon Ackie, Rami El Khatib, Reza Azarderakhsh, and
   Mehran Mozaffari-Kermani. [SIKE'd Up: Fast and Secure Hardware
   Architectures for Supersingular Isogeny Key
-  Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019.
+  Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019. 
 
 - Brian Koziel, Reza Azarderakhsh, and Mehran Mozaffari Kermani. [A
   high-performance and scalable hardware architecture for
   isogeny-based
-  cryptography](https://doi.org/10.1109/TC.2018.2815605), Mar. 2018.
+  cryptography](https://doi.org/10.1109/TC.2018.2815605),
+  Mar. 2018. Published in IEEE Transactions on Computers (2018).
 
 Software implementation
 
@@ -72,29 +75,35 @@ Software implementation
 - Hwajeong Seo, Pakize Sanal, Amir Jalali, and Reza
   Azarderakhsh. [Optimized implementation of SIKE round 2 on 64-bit
   ARM Cortex-A processors](https://doi.org/10.1109/TCSI.2020.2979410),
-  Mar. 2020.
+  Mar. 2020. Published in IEEE Transactions on Circuits and Systems I
+  (2020).
 
-- Hwajeong Seo, Amir Jalali, and Reza Azarderakhsh.
-  [Optimized SIKE Round 2 on 64-bit ARM](https://eprint.iacr.org/2019/721), Jun. 2019.
+- Hwajeong Seo, Amir Jalali, and Reza Azarderakhsh.  [Optimized SIKE
+  Round 2 on 64-bit ARM](https://eprint.iacr.org/2019/721),
+  Jun. 2019. Published in WISA 2019.
 
-- Hwajeong Seo, Amir Jalali, and Reza Azarderakhsh. [SIKE Round 2 speed
-  record on ARM Cortex-M4](https://eprint.iacr.org/2019/535), May 2019.
+- Hwajeong Seo, Amir Jalali, and Reza Azarderakhsh. [SIKE Round 2
+  speed record on ARM Cortex-M4](https://eprint.iacr.org/2019/535),
+  May 2019. Published in CANS 2019.
 
 - Joppe W. Bos and Simon J. Friedberger.  [Faster modular arithmetic
   for isogeny based crypto on embedded
-  devices](https://eprint.iacr.org/2018/792), Aug. 2018.
+  devices](https://eprint.iacr.org/2018/792), Aug. 2018. Published in
+  Journal of Cryptographic Engineering (2020).
 
-- Hwajeong Seo, Zhe Liu, Patrick Longa and Zhi Hu.  [SIDH on ARM: Faster
-  Modular Multiplications for Faster Post-Quantum Supersingular Isogeny Key
-  Exchange](https://eprint.iacr.org/2018/700), Jul. 2018.
+- Hwajeong Seo, Zhe Liu, Patrick Longa and Zhi Hu.  [SIDH on ARM:
+  Faster Modular Multiplications for Faster Post-Quantum Supersingular
+  Isogeny Key Exchange](https://eprint.iacr.org/2018/700),
+  Jul. 2018. Published in TCHES 2018.
 
 - Joppe W. Bos and Simon J. Friedberger. [Arithmetic considerations for
   isogeny based cryptography](https://eprint.iacr.org/2018/376),
-  Apr. 2018.
+  Apr. 2018. Published in IEEE Transactions on Computers (2019).
 
 - Craig Costello, Patrick Longa, and Michael Naehrig. [Efficient
   algorithms for supersingular isogeny
-  Diffie-Hellman](https://eprint.iacr.org/2016/413), Apr. 2016.
+  Diffie-Hellman](https://eprint.iacr.org/2016/413),
+  Apr. 2016. Published in CRYPTO 2016.
 
 Enhancements
 
@@ -102,26 +111,30 @@ Enhancements
   point addition formula and faster torsion basis generation in
   compressed SIKE](https://eprint.iacr.org/2020/431), Apr. 2020.
  
-- Michael Naehrig and Joost Renes.
-  [Dual Isogenies and Their Application to Public-key Compression for
-  Isogeny-based Cryptography](https://eprint.iacr.org/2019/499), May 2019.
+- Michael Naehrig and Joost Renes.  [Dual Isogenies and Their
+  Application to Public-key Compression for Isogeny-based
+  Cryptography](https://eprint.iacr.org/2019/499), May 2019. Published
+  in Asiacrypt 2019.
 
 - Gustavo H. M. Zanon, Marcos A. Simplicio Jr., Geovandro
   C. C. F. Pereira, Javad Doliskani, and Paulo
   S. L. M. Barreto. [Faster key compression for isogeny-based
-  cryptosystems](https://eprint.iacr.org/2017/1143), Nov. 2017.
+  cryptosystems](https://eprint.iacr.org/2017/1143),
+  Nov. 2017. Published in IEEE Transactions on Computers (2019).
 
 - Craig Costello, David Jao, Patrick Longa, Michael Naehrig, Joost
   Renes, and David Urbanik. [Efficient compression of SIDH public
-  keys](https://eprint.iacr.org/2016/963), Oct. 2016.
+  keys](https://eprint.iacr.org/2016/963), Oct. 2016. Published in
+  Eurocrypt 2017.
 
 Security analysis
 
 - Samuel Jaques and André Schrottenloher. [Low-gate quantum golden
   collision finding](https://eprint.iacr.org/2020/424), Apr. 2020.
 
-- Chloe Martindale and Lorenz Panny.
-  [How to not break SIDH](https://eprint.iacr.org/2019/558), May 2019.
+- Chloe Martindale and Lorenz Panny.  [How to not break
+  SIDH](https://eprint.iacr.org/2019/558), May 2019. Published in
+  CFAIL 2019.
 
 - Craig Costello, Patrick Longa, Michael Naehrig, Joost Renes and
   Fernando Virdia. [Improved classical cryptanalysis of the
@@ -130,40 +143,48 @@ Security analysis
 
 - Samuel Jaques and John M. Schanck. [Quantum cryptanalysis in the RAM
   model: Claw-finding attacks on
-  SIKE](https://eprint.iacr.org/2019/103), Feb. 2019.
+  SIKE](https://eprint.iacr.org/2019/103), Feb. 2019. Published in
+  CRYPTO 2019.
 
 - Anamaria Costache, Brooke Feigon, Kristin Lauter, Maike Massierer,
   and Anna Puskás. [Ramanujan graphs in
-  cryptography](https://arxiv.org/abs/1806.05709), Jun. 2018.
+  cryptography](https://arxiv.org/abs/1806.05709),
+  Jun. 2018. Published in Research Directions in Number Theory: Women
+  in Numbers IV.
 
 - Gora Adj, Daniel Cervantes-Vázquez, Jesús-Javier Chi-Domínguez,
   Alfred Menezes, and Francisco Rodríguez-Henríquez. [On the cost of
   computing isogenies between supersingular elliptic
-  curves](https://eprint.iacr.org/2018/313), Apr. 2018.
+  curves](https://eprint.iacr.org/2018/313), Apr. 2018. Published in
+  SAC 2018.
 
 - Steven D. Galbraith, Christophe Petit, Barak Shani, and Yan Bo Ti.
   [On the security of supersingular isogeny
-  cryptosystems](https://eprint.iacr.org/2016/859), Sep. 2016.
+  cryptosystems](https://eprint.iacr.org/2016/859),
+  Sep. 2016. Published in Asiacrypt 2016.
 
 - Luca De Feo, David Jao, and Jérôme Plût. [Towards Quantum-Resistant
   Cryptosystems From Supersingular Elliptic Curve
-  Isogenies](https://eprint.iacr.org/2011/506), Sep. 2011.
+  Isogenies](https://eprint.iacr.org/2011/506), Sep. 2011. Published
+  in PQCrypto 2011 and Journal of Mathematical Cryptology (2014).
 
 #### Expository articles
 
 - Craig Costello, [Supersingular isogeny key exchange for
-  beginners](https://eprint.iacr.org/2019/1321), Nov. 2019.
+  beginners](https://eprint.iacr.org/2019/1321), Nov. 2019. Invited
+  talk at SAC 2019.
 
 - Luca De Feo. [Mathematics of Isogeny Based
   Cryptography](https://arxiv.org/abs/1711.04062), Nov. 2017.
 
-- Steven Galbraith and Frederik Vercauteren, [Computational problems in
-  supersingular elliptic curve isogenies](https://eprint.iacr.org/2017/774),
-Aug. 2017.
+- Steven Galbraith and Frederik Vercauteren, [Computational problems
+  in supersingular elliptic curve
+  isogenies](https://eprint.iacr.org/2017/774), Aug. 2017.
 
-- Wouter Castryck. [Elliptic curves are quantum dead, long live elliptic
+- Wouter Castryck. [Elliptic curves are quantum dead, long live
+  elliptic
   curves](https://www.esat.kuleuven.be/cosic/elliptic-curves-are-quantum-dead-long-live-elliptic-curves/),
-May 2017.
+  May 2017.
 
 - David Urbanik. [A friendly introduction to Supersingular Isogeny
   Diffie-Hellman](https://csclub.uwaterloo.ca/~dburbani/work/friendlysidh.pdf),
