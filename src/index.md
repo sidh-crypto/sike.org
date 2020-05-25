@@ -58,7 +58,8 @@ Hardware implementation
 - Brian Koziel, A-Bon Ackie, Rami El Khatib, Reza Azarderakhsh, and
   Mehran Mozaffari-Kermani. [SIKE'd Up: Fast and Secure Hardware
   Architectures for Supersingular Isogeny Key
-  Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019. 
+  Encapsulation](https://eprint.iacr.org/2019/711), Jun. 2019. To
+  appear in IEEE Transactions on Circuits and Systems I (2020).
 
 - Brian Koziel, Reza Azarderakhsh, and Mehran Mozaffari Kermani. [A
   high-performance and scalable hardware architecture for
@@ -100,6 +101,13 @@ Software implementation
   isogeny based cryptography](https://eprint.iacr.org/2018/376),
   Apr. 2018. Published in IEEE Transactions on Computers (2019).
 
+
+- Brian Koziel, Amir Jalali, Reza Azarderakhsh, David Jao, and Mehran
+  Mozaffari Kermani. [NEON-SIDH: Efficient Implementation of
+  Supersingular Isogeny Diffie-Hellman Key Exchange Protocol on
+  ARM](https://eprint.iacr.org/2016/669), Nov. 2016. Published in CANS
+  2016.
+
 - Craig Costello, Patrick Longa, and Michael Naehrig. [Efficient
   algorithms for supersingular isogeny
   Diffie-Hellman](https://eprint.iacr.org/2016/413),
@@ -126,6 +134,11 @@ Enhancements
   Renes, and David Urbanik. [Efficient compression of SIDH public
   keys](https://eprint.iacr.org/2016/963), Oct. 2016. Published in
   Eurocrypt 2017.
+
+- Reza Azarderakhsh, David Jao, Kassem Kalach, Brian Koziel,
+  Christopher Leonardi. [Key compression for isogeny-based
+  ryptosystems](https://eprint.iacr.org/2016/229),
+  Mar. 2016. Published in AsiaPKC 2016.
 
 Security analysis
 
@@ -157,6 +170,16 @@ Security analysis
   computing isogenies between supersingular elliptic
   curves](https://eprint.iacr.org/2018/313), Apr. 2018. Published in
   SAC 2018.
+
+- Brian Koziel, Reza Azarderakhsh, and David Jao. [An Exposure Model
+  for Supersingular Isogeny Diffie-Hellman Key
+  Exchange](http://faculty.eng.fau.edu/azarderakhsh/files/2016/11/RSA-2018-01-08.pdf),
+  Nov. 2016. Published in CT-RSA 2018.
+
+- Brian Koziel, Reza Azarderakhsh, and David Jao. [Side-Channel
+  Attacks on Quantum-Resistant Supersingular Isogeny
+  Diffie-Hellman](http://www.site.uottawa.ca/~cadams/papers/prepro/paper_29.pdf),
+  Jul. 2017. Published in SAC 2017.
 
 - Steven D. Galbraith, Christophe Petit, Barak Shani, and Yan Bo Ti.
   [On the security of supersingular isogeny
