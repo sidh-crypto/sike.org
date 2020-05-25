@@ -47,8 +47,8 @@ Hardware implementation
 
 - Rami Elkhatib, Reza Azarderakhsh and Mehran
   Mozaffari-Kermani. [Efficient and fast hardware architectures for
-  SIKE round 2 on FPGA](https://eprint.iacr.org/2020/611), May
-  2020. To appear in ARITH 2020.
+  SIKE round 2 on FPGA](https://eprint.iacr.org/2020/611), May 2020.
+  To appear in ARITH 2020.
 
 - Pedro Maat C. Massolino, Patrick Longa, Joost Renes and Lejla
   Batina. [A compact and scalable hardware/software co-design of
