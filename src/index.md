@@ -18,6 +18,8 @@ each instantiated with four parameter sets: **SIKEp434**,
 
 | News |
 |-|
+| **2020-10-10:** |
+3rd round files available.
 | **2020-04-16:** |
 [List of implementation updates](implementation-update.html) submitted to NIST.
 | **2019-04-17:** |
@@ -34,7 +36,7 @@ SIKE proposal submitted to [NIST PQC process](https://csrc.nist.gov/Projects/Pos
 The original submission package can be downloaded from the [NIST web
 site](https://csrc.nist.gov/projects/post-quantum-cryptography/round-2-submissions).
 An updated version of the submission package (with corrections) is available
-from [this server](files/sike.tar.gz).
+from this server, in [tar.gz](files/sike.tar.gz) or [ZIP](files/SIKE.zip) format.
 
 The (updated) specification document alone can also be [downloaded
 separately](files/SIDH-spec.pdf).
@@ -264,17 +266,18 @@ Jul. 2016.
 
 ## Implementation
 
-The SIKE submission contains six implementations. These are available
+The SIKE submission contains seven implementations. These are available
 from the [submission package](files/sike.tar.gz), or individually below:
 
 - [Reference implementation](files/reference.zip)
 - [Optimized implementation](files/optimized.zip)
 - [AMD64 implementation](files/x64.zip)
 - [ARM64 implementation](files/arm64.zip)
+- [Cortex M4 implementation](files/m4.zip)
 - [VHDL implementation](files/vhdl.zip)
 - [Weierstrass implementation](files/weierstrass.zip)
 
-All of the above implementations are licensed under the [MIT
+All of the implementations are licensed under the [MIT
 license](files/License.txt).
 
 The following implementation is available from Microsoft Research:
@@ -299,7 +302,9 @@ server](files/KAT/).
 - Craig Costello, Microsoft Research
 - Luca De Feo, IBM Research Zürich
 - Basil Hess, Infosec Global, Switzerland
+- Aaron Hutchinson, University of Waterloo, Canada
 - Amir Jalali, LinkedIn Corporation
+- Koray Karabina, National Research Council, Canada
 - Brian Koziel, Texas Instruments
 - Brian LaMacchia, Microsoft Research
 - Patrick Longa, Microsoft Research
