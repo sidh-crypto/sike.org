@@ -10,7 +10,7 @@ standardization
 process](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography) on
 post-quantum cryptography. It contains two algorithms: 
 
-- A CCA-secure public key encryption algorithm **SIKE.PKE**, and
+- A CPA-secure public key encryption algorithm **SIKE.PKE**, and
 - A CCA-secure key encapsulation mechanism **SIKE.KEM**,
 
 each instantiated with four parameter sets: **SIKEp434**,
