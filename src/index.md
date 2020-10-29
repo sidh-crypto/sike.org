@@ -180,7 +180,7 @@ Security analysis
 
 - Brian Koziel, Reza Azarderakhsh, and David Jao. [Side-Channel
   Attacks on Quantum-Resistant Supersingular Isogeny
-  Diffie-Hellman](http://www.site.uottawa.ca/~cadams/papers/prepro/paper_29.pdf),
+  Diffie-Hellman](https://www.site.uottawa.ca/~cadams/papers/prepro/paper_29.pdf),
   Jul. 2017. Published in SAC 2017.
 
 - Steven D. Galbraith, Christophe Petit, Barak Shani, and Yan Bo Ti.
@@ -248,7 +248,7 @@ Real World Cryptography Conference 2018, Jan. 2018.
   isogenies](https://ecc2017.cs.ru.nl/slides/ecc2017-costello.pdf), Nov. 2017.
 
 - Luca De Feo. [20 Years of Isogeny-Based
-  Cryptography](http://defeo.lu/docet/assets/slides/2017-11-14-ecc.pdf),
+  Cryptography](https://defeo.lu/docet/assets/slides/2017-11-14-ecc.pdf),
 Nov. 2017.
 
 - Deirdre Connolly. [Supersingular Isogeny
@@ -284,9 +284,10 @@ The following implementation is available from Microsoft Research:
 
 - [Microsoft SIDH library](https://github.com/Microsoft/PQCrypto-SIDH)
 
-The following implementation is available from a third party:
+The following implementations are available from third parties:
 
 - [Cloudflare CIRCL library](https://github.com/cloudflare/circl/tree/master/dh/sidh)
+- [SIKE for Java](https://github.com/wultra/sike-java)
 
 ### Known Answer Test
 
