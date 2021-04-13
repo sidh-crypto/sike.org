@@ -118,8 +118,8 @@ Software implementation
 Enhancements
 
 - Geovandro C. C. F. Pereira, Javad Doliskani and David Jao. [x-only
-  point addition formula and faster torsion basis generation in
-  compressed SIKE](https://eprint.iacr.org/2020/431), Apr. 2020.
+  point addition formula and faster compressed
+  SIKE](https://eprint.iacr.org/2020/431), Apr. 2020.
  
 - Michael Naehrig and Joost Renes.  [Dual Isogenies and Their
   Application to Public-key Compression for Isogeny-based
