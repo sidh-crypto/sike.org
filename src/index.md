@@ -8,7 +8,7 @@ SIKE is an isogeny-based key encapsulation suite based on pseudo-random
 walks in supersingular isogeny graphs, that was submitted to the [NIST
 standardization
 process](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography) on
-post-quantum cryptography. It contains two algorithms: 
+post-quantum cryptography. It contains two algorithms:
 
 - A CPA-secure public key encryption algorithm **SIKE.PKE**, and
 - A CCA-secure key encapsulation mechanism **SIKE.KEM**,
@@ -47,10 +47,14 @@ separately](files/SIDH-spec.pdf).
 
 Hardware implementation
 
+- Reza Azarderakhsh, Rami El Khatib, Brian Koziel, and Brandon
+  Langenberg. [Hardware deployment of hybrid
+  PQC](https://eprint.iacr.org/2021/541), Apr. 2021.
+
 - Rami Elkhatib, Reza Azarderakhsh and Mehran
   Mozaffari-Kermani. [Efficient and fast hardware architectures for
   SIKE round 2 on FPGA](https://eprint.iacr.org/2020/611), May 2020.
-  To appear in ARITH 2020.
+  Published in ARITH 2020.
 
 - Pedro Maat C. Massolino, Patrick Longa, Joost Renes and Lejla
   Batina. [A compact and scalable hardware/software co-design of
@@ -71,10 +75,19 @@ Hardware implementation
 
 Software implementation
 
+- Hwajeong Seo, Pakize Sanal, Wai-Kong Lee, and Reza Azarderakhsh.
+  [No Silver Bullet: Optimized Montgomery multiplication on various
+  64-bit ARM platforms](https://eprint.iacr.org/2021/185), Feb. 2021.
+
+- Mila Anastasova, Reza Azarderakhsh and Mehran Mozaffari Kermani,
+  [Fast strategies for the implementation of SIKE Round 3 on ARM
+  Cortex-M4](https://eprint.iacr.org/2021/115), Jan. 2021.
+
 - Hwajeong Seo, Mila Anastasova, Amir Jalali and Reza
   Azarderakhsh. [Supersingular Isogeny Key Encapsulation (SIKE) Round
   2 on ARM Cortex-M4](https://eprint.iacr.org/2020/410), Apr. 2020.
- 
+  Published in IEEE Transactions on Computers.
+
 - Hwajeong Seo, Pakize Sanal, Amir Jalali, and Reza
   Azarderakhsh. [Optimized implementation of SIKE round 2 on 64-bit
   ARM Cortex-A processors](https://doi.org/10.1109/TCSI.2020.2979410),
@@ -117,10 +130,15 @@ Software implementation
 
 Enhancements
 
+- Geovandro C. C. F. Pereira and Paulo
+  S. L. M. Barreto. [Isogeny-based key compression without
+  pairings](https://eprint.iacr.org/2021/272), Apr. 2021.
+
 - Geovandro C. C. F. Pereira, Javad Doliskani and David Jao. [x-only
   point addition formula and faster compressed
-  SIKE](https://eprint.iacr.org/2020/431), Apr. 2020.
- 
+  SIKE](https://eprint.iacr.org/2020/431), Apr. 2020. Published in
+  Journal of Cryptographic Engineering (2020).
+
 - Michael Naehrig and Joost Renes.  [Dual Isogenies and Their
   Application to Public-key Compression for Isogeny-based
   Cryptography](https://eprint.iacr.org/2019/499), May 2019. Published
@@ -144,10 +162,36 @@ Enhancements
 
 Security analysis
 
+- Laia Amorós, Annamaria Iezzi, Kristin Lauter, Chloe Martindale and
+  Jana Sotáková. [Explicit connections between supersingular isogeny
+  graphs and Bruhat–Tits trees](https://eprint.iacr.org/2021/372),
+  Mar. 2021.  Published in Women in Numbers Europe III: Research
+  Directions in Number Theory (2021).
+
+- Péter Kutas, Simon-Philipp Merz, Christophe Petit and
+  Charlotte Weitkämper. [One-way functions and malleability oracles:
+  Hidden shift attacks on isogeny-based
+  protocols](https://eprint.iacr.org/2021/282), Mar. 2021.
+  Published in Eurocrypt 2021.
+
+- Boris Fouotsa Tako, Péter Kutas and Simon-Philipp Merz. [On the
+  isogeny problem with torsion point
+  information](https://eprint.iacr.org/2021/153), Feb. 2021.
+
+- Hiroshi Onuki, Yusuke Aikawa and Tsuyoshi Takagi. [The existence of
+  cycles in the supersingular isogeny graphs Used in
+  SIKE](https://eprint.iacr.org/2020/439), Aug. 2020.
+
+- Victoria de Quehen, Péter Kutas, Chris Leonardi, Chloe Martindale,
+  Lorenz Panny, Christophe Petit, and Katherine E. Stange. [Improved
+  torsion point attacks on SIDH
+  variants](https://arxiv.org/abs/2005.14681), May 2020.
+
 - Samuel Jaques and André Schrottenloher. [Low-gate quantum golden
   collision finding](https://eprint.iacr.org/2020/424), Apr. 2020.
+  Publisned in SAC 2020.
 
-- Chloe Martindale and Lorenz Panny.  [How to not break
+- Chloe Martindale and Lorenz Panny. [How to not break
   SIDH](https://eprint.iacr.org/2019/558), May 2019. Published in
   CFAIL 2019.
 
@@ -195,6 +239,9 @@ Security analysis
 
 #### Expository articles
 
+- Craig Costello, [The case for SIKE: A decade of the Supersingular
+  Isogeny Problem](https://eprint.iacr.org/2021/543), Apr. 2021.
+
 - Craig Costello, [Supersingular isogeny key exchange for
   beginners](https://eprint.iacr.org/2019/1321), Nov. 2019. Invited
   talk at SAC 2019.
@@ -235,14 +282,17 @@ Mar. 2017.
 
 #### Talks
 
-- [@naehrwert](https://twitter.com/naehrwert), [(Post-Quantum) Isogeny Cryptography](https://media.ccc.de/v/36c3-10543-post-quantum_isogeny_cryptography), 36c3, Dec. 2019.
+- David Jao. [Implementation of isogeny-based cryptography](https://www.nist.gov/video/implementation-isogeny-based-cryptography), NIST PQC Round 3 seminar series, Feb. 2021.
+
+- [@naehrwert](https://twitter.com/naehrwert). [(Post-Quantum) Isogeny Cryptography](https://media.ccc.de/v/36c3-10543-post-quantum_isogeny_cryptography), 36c3, Dec. 2019.
 
 - David Jao. [Supersingular Isogeny Key Encapsulation](files/SIKE.pdf),
   NIST PQC Standardization Conference, Apr. 2018.
 
-- Patrick Longa. [Supersingular isogeny based cryptography gets practical](https://www.youtube.com/watch?v=31NyfrHSAcoBcM)
-([slides](https://irp-cdn.multiscreensite.com/7fa75f95/files/uploaded/Supersingular%20isogeny%20based%20cryptography%20gets%20practical%20-%20RWC2018.pdf)),
-Real World Cryptography Conference 2018, Jan. 2018.
+- Patrick Longa. [Supersingular isogeny based cryptography gets
+  practical](https://www.youtube.com/watch?v=31NyfrHSAcoBcM)
+  ([slides](https://irp-cdn.multiscreensite.com/7fa75f95/files/uploaded/Supersingular%20isogeny%20based%20cryptography%20gets%20practical%20-%20RWC2018.pdf)),
+  Real World Cryptography Conference 2018, Jan. 2018.
 
 - Craig Costello. [Key encapsulation using supersingular
   isogenies](https://ecc2017.cs.ru.nl/slides/ecc2017-costello.pdf), Nov. 2017.
@@ -253,16 +303,17 @@ Nov. 2017.
 
 - Deirdre Connolly. [Supersingular Isogeny
   Diffie-Hellman](https://www.youtube.com/watch?v=ctP24WKusX0)
-([slides](https://dconnolly.github.io/talks/cloudflare-crypto-meetup-feb-2017/Crypto%20Meetup%20Feb%202017.pdf)),
-Cloudflare Crypto Meetup, Feb. 2017.
+  ([slides](https://dconnolly.github.io/talks/cloudflare-crypto-meetup-feb-2017/Crypto%20Meetup%20Feb%202017.pdf)),
+  Cloudflare Crypto Meetup, Feb. 2017.
 
 - Michael Naehrig. [Supersingular Isogeny Diffie-Hellman](https://cryptosith.org/michael/data/talks/2017-01-04-SIDH-RWC17.pdf),
   Real-World Cryptography Conference 2017, Jan. 2017.
 
-- David Urbanik. [Introduction to the post-quantum Supersingular Isogeny
-  Diffie-Hellman protocol](https://www.youtube.com/watch?v=PW5Vsu57o9I)
-([slides](https://csclub.uwaterloo.ca/~dburbani/work/sidh_talk_july_2016.pdf)),
-Jul. 2016.
+- David Urbanik. [Introduction to the post-quantum Supersingular
+  Isogeny Diffie-Hellman
+  protocol](https://www.youtube.com/watch?v=PW5Vsu57o9I)
+  ([slides](https://csclub.uwaterloo.ca/~dburbani/work/sidh_talk_july_2016.pdf)),
+  Jul. 2016.
 
 ## Implementation
 
