@@ -18,7 +18,7 @@ each instantiated with four parameter sets: **SIKEp434**,
 
 | News |
 |-|
-| **2021-04-09:** |
+| **2021-06-09:** |
 [$IKE challenge](https://www.microsoft.com/en-us/msrc/sike-cryptographic-challenge) launched.
 | **2020-10-10:** |
 3rd round files available.
