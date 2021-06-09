@@ -18,6 +18,8 @@ each instantiated with four parameter sets: **SIKEp434**,
 
 | News |
 |-|
+| **2021-04-09:** |
+[$IKE challenge](https://www.microsoft.com/en-us/msrc/sike-cryptographic-challenge) launched.
 | **2020-10-10:** |
 3rd round files available.
 | **2020-04-16:** |
@@ -46,6 +48,10 @@ separately](files/SIDH-spec.pdf).
 #### Research articles
 
 Hardware implementation
+
+- Rami Elkhatib, Reza Azarderakhsh, and Mehran Mozaffari-Kermani.
+  [Accelerated RISC-V for post-quantum SIKE](https://eprint.iacr.org/2021/597),
+  May 2021.
 
 - Reza Azarderakhsh, Rami El Khatib, Brian Koziel, and Brandon
   Langenberg. [Hardware deployment of hybrid
@@ -178,6 +184,11 @@ Security analysis
   isogeny problem with torsion point
   information](https://eprint.iacr.org/2021/153), Feb. 2021.
 
+- Patrick Longa, Wen Wang, and Jakub Szefer.
+  [The cost to break SIKE: A comparative hardware-based analysis
+  with AES and SHA-3](https://eprint.iacr.org/2020/1457), Nov. 2020.
+  Published in CRYPTO 2021.
+
 - Hiroshi Onuki, Yusuke Aikawa and Tsuyoshi Takagi. [The existence of
   cycles in the supersingular isogeny graphs Used in
   SIKE](https://eprint.iacr.org/2020/439), Aug. 2020.
@@ -185,7 +196,7 @@ Security analysis
 - Victoria de Quehen, Péter Kutas, Chris Leonardi, Chloe Martindale,
   Lorenz Panny, Christophe Petit, and Katherine E. Stange. [Improved
   torsion point attacks on SIDH
-  variants](https://arxiv.org/abs/2005.14681), May 2020.
+  variants](https://eprint.iacr.org/2020/633), May 2020. Published in CRYPTO 2021.
 
 - Samuel Jaques and André Schrottenloher. [Low-gate quantum golden
   collision finding](https://eprint.iacr.org/2020/424), Apr. 2020.
