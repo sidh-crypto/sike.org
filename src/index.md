@@ -168,6 +168,16 @@ Enhancements
 
 Security analysis
 
+- Aymeric Genêt, Natacha Linard de Guertechin, and Novak Kaluđerović.
+  [Full key recovery side-channel attack against ephemeral SIKE on the
+  Cortex-M4](https://eprint.iacr.org/2021/858), Jun. 2021. Published
+  in COSADE 2021.
+
+- Élise Tasso, Luca De Feo, Nadia El Mrabet and Simon Pontié.
+  [Resistance of isogeny-based cryptographic implementations to a fault
+  attack](https://eprint.iacr.org/2021/850), Jun. 2021. Published in
+  COSADE 2021.
+
 - Laia Amorós, Annamaria Iezzi, Kristin Lauter, Chloe Martindale and
   Jana Sotáková. [Explicit connections between supersingular isogeny
   graphs and Bruhat–Tits trees](https://eprint.iacr.org/2021/372),
