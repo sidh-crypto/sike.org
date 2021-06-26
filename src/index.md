@@ -303,6 +303,8 @@ Mar. 2017.
 
 #### Talks
 
+- Luca De Feo. [Supersinglar Isogeny Key Encapsulation](https://www.nist.gov/video/third-pqc-standardization-conference-session-vi-candidate-updates), NIST Third PQC Standardization Conference, Jun. 2021.
+
 - David Jao. [Implementation of isogeny-based cryptography](https://www.nist.gov/video/implementation-isogeny-based-cryptography), NIST PQC Round 3 seminar series, Feb. 2021.
 
 - [@naehrwert](https://twitter.com/naehrwert). [(Post-Quantum) Isogeny Cryptography](https://media.ccc.de/v/36c3-10543-post-quantum_isogeny_cryptography), 36c3, Dec. 2019.
